@@ -15,10 +15,10 @@ var start = () => {
         while (imeiset.size < input) {
             imeiset.add(imeiUtil.generateImei())
         }
-        process.stdout.write(`IMEI,ACTION\n`)
+        // process.stdout.write(`IMEI,ACTION\n`)
         for(let imei of imeiset) {
             // process.stdout.write(`${imei}${--input==0?"":","}`)
-            process.stdout.write(`${imei},ADD\n`)
+            process.stdout.write(`${imei}\n`)
         }
         // for(let imei of imeiset) {
         //     process.stdout.write(`${imei},`)

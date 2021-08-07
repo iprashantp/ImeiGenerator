@@ -10,7 +10,6 @@ var start = () => {
     var input;
     while(true){
         input = rl.question("how many imeis to generate? ")
-        console.log()
         const imeiset = new Set();
         while (imeiset.size < input) {
             imeiset.add(imeiUtil.generateImei())

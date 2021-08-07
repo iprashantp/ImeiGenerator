@@ -1,0 +1,16 @@
+{
+  "name": "imeigenerator",
+  "version": "1.0.0",
+  "description": "generate valid imeis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prashant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
+}
